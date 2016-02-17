@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540B5B771C753DB2009062EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540B5B761C753DB2009062EA /* AppDelegate.swift */; };
+		540B5B791C753DB2009062EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540B5B781C753DB2009062EA /* ViewController.swift */; };
+		540B5B7C1C753DB2009062EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540B5B7A1C753DB2009062EA /* Main.storyboard */; };
+		540B5B7E1C753DB2009062EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540B5B7D1C753DB2009062EA /* Assets.xcassets */; };
+		540B5B811C753DB2009062EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540B5B7F1C753DB2009062EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		540B5B731C753DB2009062EA /* IOS8SwiftTakePhotoTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS8SwiftTakePhotoTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540B5B761C753DB2009062EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		540B5B781C753DB2009062EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		540B5B7B1C753DB2009062EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		540B5B7D1C753DB2009062EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540B5B801C753DB2009062EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		540B5B821C753DB2009062EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540B5B701C753DB2009062EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540B5B6A1C753DB2009062EA = {
+			isa = PBXGroup;
+			children = (
+				540B5B751C753DB2009062EA /* IOS8SwiftTakePhotoTutorial */,
+				540B5B741C753DB2009062EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540B5B741C753DB2009062EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540B5B731C753DB2009062EA /* IOS8SwiftTakePhotoTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540B5B751C753DB2009062EA /* IOS8SwiftTakePhotoTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				540B5B761C753DB2009062EA /* AppDelegate.swift */,
+				540B5B781C753DB2009062EA /* ViewController.swift */,
+				540B5B7A1C753DB2009062EA /* Main.storyboard */,
+				540B5B7D1C753DB2009062EA /* Assets.xcassets */,
+				540B5B7F1C753DB2009062EA /* LaunchScreen.storyboard */,
+				540B5B821C753DB2009062EA /* Info.plist */,
+			);
+			path = IOS8SwiftTakePhotoTutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540B5B721C753DB2009062EA /* IOS8SwiftTakePhotoTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540B5B851C753DB2009062EA /* Build configuration list for PBXNativeTarget "IOS8SwiftTakePhotoTutorial" */;
+			buildPhases = (
+				540B5B6F1C753DB2009062EA /* Sources */,
+				540B5B701C753DB2009062EA /* Frameworks */,
+				540B5B711C753DB2009062EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS8SwiftTakePhotoTutorial;
+			productName = IOS8SwiftTakePhotoTutorial;
+			productReference = 540B5B731C753DB2009062EA /* IOS8SwiftTakePhotoTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540B5B6B1C753DB2009062EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Max Matuson";
+				TargetAttributes = {
+					540B5B721C753DB2009062EA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 540B5B6E1C753DB2009062EA /* Build configuration list for PBXProject "IOS8SwiftTakePhotoTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540B5B6A1C753DB2009062EA;
+			productRefGroup = 540B5B741C753DB2009062EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540B5B721C753DB2009062EA /* IOS8SwiftTakePhotoTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540B5B711C753DB2009062EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540B5B811C753DB2009062EA /* LaunchScreen.storyboard in Resources */,
+				540B5B7E1C753DB2009062EA /* Assets.xcassets in Resources */,
+				540B5B7C1C753DB2009062EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540B5B6F1C753DB2009062EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540B5B791C753DB2009062EA /* ViewController.swift in Sources */,
+				540B5B771C753DB2009062EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		540B5B7A1C753DB2009062EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540B5B7B1C753DB2009062EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		540B5B7F1C753DB2009062EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540B5B801C753DB2009062EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		540B5B831C753DB2009062EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		540B5B841C753DB2009062EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		540B5B861C753DB2009062EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOS8SwiftTakePhotoTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxIM.IOS8SwiftTakePhotoTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		540B5B871C753DB2009062EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOS8SwiftTakePhotoTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxIM.IOS8SwiftTakePhotoTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540B5B6E1C753DB2009062EA /* Build configuration list for PBXProject "IOS8SwiftTakePhotoTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540B5B831C753DB2009062EA /* Debug */,
+				540B5B841C753DB2009062EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540B5B851C753DB2009062EA /* Build configuration list for PBXNativeTarget "IOS8SwiftTakePhotoTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540B5B861C753DB2009062EA /* Debug */,
+				540B5B871C753DB2009062EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540B5B6B1C753DB2009062EA /* Project object */;
+}
